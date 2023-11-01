@@ -1,0 +1,56 @@
+{
+  "AppFooter": {
+    "description": "Auto imported from components/AppFooter.vue"
+  },
+  "DropDown": {
+    "description": "Auto imported from components/DropDown.vue"
+  },
+  "FAQ": {
+    "description": "Auto imported from components/FAQ.vue"
+  },
+  "FalamSobreAGente": {
+    "description": "Auto imported from components/FalamSobreAGente.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Hero": {
+    "description": "Auto imported from components/Hero.vue"
+  },
+  "MelhoreSeuSono": {
+    "description": "Auto imported from components/MelhoreSeuSono.vue"
+  },
+  "Midia": {
+    "description": "Auto imported from components/Midia.vue"
+  },
+  "Navigation": {
+    "description": "Auto imported from components/Navigation.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "OTravesseiro": {
+    "description": "Auto imported from components/OTravesseiro.vue"
+  },
+  "OpcoesCompra": {
+    "description": "Auto imported from components/OpcoesCompra.vue"
+  },
+  "QuemSomos": {
+    "description": "Auto imported from components/QuemSomos.vue"
+  },
+  "ShowVideo": {
+    "description": "Auto imported from components/ShowVideo.vue"
+  },
+  "TestNights": {
+    "description": "Auto imported from components/TestNights.vue"
+  },
+  "TestNightsModal": {
+    "description": "Auto imported from components/TestNightsModal.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "WhatsApp": {
+    "description": "Auto imported from components/WhatsApp.vue"
+  }
+}
