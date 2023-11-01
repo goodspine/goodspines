@@ -13,7 +13,6 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_plugin_5cfb769c from 'nuxt_plugin_plugin_5cfb769c' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_vueSmoothScroll_5394cd8c from 'nuxt_plugin_vueSmoothScroll_5394cd8c' // Source: ..\\plugins\\vueSmoothScroll.js (mode: 'client')
 import nuxt_plugin_vuejsmodal_a01fef9e from 'nuxt_plugin_vuejsmodal_a01fef9e' // Source: ..\\plugins\\vue-js-modal.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -182,10 +181,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_plugin_5cfb769c === 'function') {
     await nuxt_plugin_plugin_5cfb769c(app.context, inject)
-  }
-
-  if (process.client && typeof nuxt_plugin_vueSmoothScroll_5394cd8c === 'function') {
-    await nuxt_plugin_vueSmoothScroll_5394cd8c(app.context, inject)
   }
 
   if (typeof nuxt_plugin_vuejsmodal_a01fef9e === 'function') {
