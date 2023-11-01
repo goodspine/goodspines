@@ -31,7 +31,6 @@ export default {
     { src: '~/plugins/vueSmoothScroll.js', mode: 'client' },
     { src: '~/plugins/vue-js-modal.js' },
     
-
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
