@@ -30,7 +30,7 @@ export default {
   plugins: [
     { src: '~/plugins/vueSmoothScroll.js', mode: 'client' },
     { src: '~/plugins/vue-js-modal.js' },
-    { src: '~/plugins/vue-mobile-detection.js' },
+    
 
   ],
 

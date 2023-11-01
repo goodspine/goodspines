@@ -1,21 +1,21 @@
-export const AppFooter = () => import('../../components/AppFooter.vue' /* webpackChunkName: "components/app-footer" */).then(c => wrapFunctional(c.default || c))
-export const DropDown = () => import('../../components/DropDown.vue' /* webpackChunkName: "components/drop-down" */).then(c => wrapFunctional(c.default || c))
-export const FAQ = () => import('../../components/FAQ.vue' /* webpackChunkName: "components/f-a-q" */).then(c => wrapFunctional(c.default || c))
-export const FalamSobreAGente = () => import('../../components/FalamSobreAGente.vue' /* webpackChunkName: "components/falam-sobre-a-gente" */).then(c => wrapFunctional(c.default || c))
-export const Footer = () => import('../../components/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
-export const Hero = () => import('../../components/Hero.vue' /* webpackChunkName: "components/hero" */).then(c => wrapFunctional(c.default || c))
-export const MelhoreSeuSono = () => import('../../components/MelhoreSeuSono.vue' /* webpackChunkName: "components/melhore-seu-sono" */).then(c => wrapFunctional(c.default || c))
-export const Midia = () => import('../../components/Midia.vue' /* webpackChunkName: "components/midia" */).then(c => wrapFunctional(c.default || c))
-export const Navigation = () => import('../../components/Navigation.vue' /* webpackChunkName: "components/navigation" */).then(c => wrapFunctional(c.default || c))
-export const NuxtLogo = () => import('../../components/NuxtLogo.vue' /* webpackChunkName: "components/nuxt-logo" */).then(c => wrapFunctional(c.default || c))
-export const OTravesseiro = () => import('../../components/OTravesseiro.vue' /* webpackChunkName: "components/o-travesseiro" */).then(c => wrapFunctional(c.default || c))
-export const OpcoesCompra = () => import('../../components/OpcoesCompra.vue' /* webpackChunkName: "components/opcoes-compra" */).then(c => wrapFunctional(c.default || c))
-export const QuemSomos = () => import('../../components/QuemSomos.vue' /* webpackChunkName: "components/quem-somos" */).then(c => wrapFunctional(c.default || c))
-export const ShowVideo = () => import('../../components/ShowVideo.vue' /* webpackChunkName: "components/show-video" */).then(c => wrapFunctional(c.default || c))
-export const TestNights = () => import('../../components/TestNights.vue' /* webpackChunkName: "components/test-nights" */).then(c => wrapFunctional(c.default || c))
-export const TestNightsModal = () => import('../../components/TestNightsModal.vue' /* webpackChunkName: "components/test-nights-modal" */).then(c => wrapFunctional(c.default || c))
-export const Tutorial = () => import('../../components/Tutorial.vue' /* webpackChunkName: "components/tutorial" */).then(c => wrapFunctional(c.default || c))
-export const WhatsApp = () => import('../../components/WhatsApp.vue' /* webpackChunkName: "components/whats-app" */).then(c => wrapFunctional(c.default || c))
+export { default as AppFooter } from '../..\\components\\AppFooter.vue'
+export { default as DropDown } from '../..\\components\\DropDown.vue'
+export { default as FalamSobreAGente } from '../..\\components\\FalamSobreAGente.vue'
+export { default as FAQ } from '../..\\components\\FAQ.vue'
+export { default as Footer } from '../..\\components\\Footer.vue'
+export { default as Hero } from '../..\\components\\Hero.vue'
+export { default as MelhoreSeuSono } from '../..\\components\\MelhoreSeuSono.vue'
+export { default as Midia } from '../..\\components\\Midia.vue'
+export { default as Navigation } from '../..\\components\\Navigation.vue'
+export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
+export { default as OpcoesCompra } from '../..\\components\\OpcoesCompra.vue'
+export { default as OTravesseiro } from '../..\\components\\OTravesseiro.vue'
+export { default as QuemSomos } from '../..\\components\\QuemSomos.vue'
+export { default as ShowVideo } from '../..\\components\\ShowVideo.vue'
+export { default as TestNights } from '../..\\components\\TestNights.vue'
+export { default as TestNightsModal } from '../..\\components\\TestNightsModal.vue'
+export { default as Tutorial } from '../..\\components\\Tutorial.vue'
+export { default as WhatsApp } from '../..\\components\\WhatsApp.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

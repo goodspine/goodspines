@@ -5,11 +5,11 @@
   "DropDown": {
     "description": "Auto imported from components/DropDown.vue"
   },
-  "FAQ": {
-    "description": "Auto imported from components/FAQ.vue"
-  },
   "FalamSobreAGente": {
     "description": "Auto imported from components/FalamSobreAGente.vue"
+  },
+  "FAQ": {
+    "description": "Auto imported from components/FAQ.vue"
   },
   "Footer": {
     "description": "Auto imported from components/Footer.vue"
@@ -29,11 +29,11 @@
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
   },
-  "OTravesseiro": {
-    "description": "Auto imported from components/OTravesseiro.vue"
-  },
   "OpcoesCompra": {
     "description": "Auto imported from components/OpcoesCompra.vue"
+  },
+  "OTravesseiro": {
+    "description": "Auto imported from components/OTravesseiro.vue"
   },
   "QuemSomos": {
     "description": "Auto imported from components/QuemSomos.vue"

@@ -12,10 +12,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_fc097f50 from 'nuxt_plugin_plugin_fc097f50' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_vueSmoothScroll_5394cd8c from 'nuxt_plugin_vueSmoothScroll_5394cd8c' // Source: ../plugins/vueSmoothScroll.js (mode: 'client')
-import nuxt_plugin_vuejsmodal_a01fef9e from 'nuxt_plugin_vuejsmodal_a01fef9e' // Source: ../plugins/vue-js-modal.js (mode: 'all')
-import nuxt_plugin_vuemobiledetection_366329a0 from 'nuxt_plugin_vuemobiledetection_366329a0' // Source: ../plugins/vue-mobile-detection.js (mode: 'all')
+import nuxt_plugin_plugin_5cfb769c from 'nuxt_plugin_plugin_5cfb769c' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_vueSmoothScroll_5394cd8c from 'nuxt_plugin_vueSmoothScroll_5394cd8c' // Source: ..\\plugins\\vueSmoothScroll.js (mode: 'client')
+import nuxt_plugin_vuejsmodal_a01fef9e from 'nuxt_plugin_vuejsmodal_a01fef9e' // Source: ..\\plugins\\vue-js-modal.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -181,8 +180,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_fc097f50 === 'function') {
-    await nuxt_plugin_plugin_fc097f50(app.context, inject)
+  if (typeof nuxt_plugin_plugin_5cfb769c === 'function') {
+    await nuxt_plugin_plugin_5cfb769c(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vueSmoothScroll_5394cd8c === 'function') {
@@ -191,10 +190,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_vuejsmodal_a01fef9e === 'function') {
     await nuxt_plugin_vuejsmodal_a01fef9e(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_vuemobiledetection_366329a0 === 'function') {
-    await nuxt_plugin_vuemobiledetection_366329a0(app.context, inject)
   }
 
   // Lock enablePreview in context
